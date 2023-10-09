@@ -2,7 +2,7 @@
   margin: 0 16px;
 }
 .cards {
-  padding-top: 24px;
+  padding-top: 65.6px;
 }
 
 .ytp-large-play-button,
@@ -33,9 +33,13 @@
 }
 .searchSuggests {
   width: 100%;
+  padding: 10px;
   overflow-x: auto;
 
-  touch-action: pan-x;
+  background: #fff;
+
+  position: fixed;
+  z-index: 20;
 }
 
 .searchSuggests::-webkit-scrollbar {
