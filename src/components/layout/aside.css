@@ -1,0 +1,69 @@
+.regularAsideLink {
+  min-height: 40px;
+  width: 100%;
+  padding: 0 12px;
+  border-radius: 10px;
+
+  color: #0f0f0f;
+  font-size: 14px;
+
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+.aside-icon {
+  width: 25%;
+}
+.navigation {
+  padding: 12px;
+}
+.active {
+  font-weight: 600;
+  .path {
+    fill: #000;
+  }
+  .path1 {
+    fill: #fff;
+  }
+  .path2 {
+    display: none;
+  }
+}
+.active,
+.regularAsideLink:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.active:hover,
+.regularAsideLink:active {
+  background: rgba(0, 0, 0, 0.09);
+}
+.active:active {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.libraries {
+  margin-top: 12px;
+  padding-top: 12px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.aside::-webkit-scrollbar {
+  width: 9px;
+  height: 6px;
+}
+.aside::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+
+  display: none;
+}
+.aside::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+}

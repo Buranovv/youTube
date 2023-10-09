@@ -1,0 +1,53 @@
+.home {
+  margin: 0 16px;
+}
+.cards {
+  padding-top: 24px;
+}
+
+.ytp-large-play-button,
+.ytp-button,
+.ytp-large-play-button-red-bg {
+  display: none !important;
+}
+
+.frame1 {
+  display: none;
+}
+
+.frame:hover {
+  display: none;
+
+  .frame1 {
+    background: #000;
+  }
+  .frame1 {
+    display: block;
+  }
+}
+
+.loader {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+}
+.searchSuggests {
+  width: 100%;
+  overflow-x: auto;
+
+  touch-action: pan-x;
+}
+
+.searchSuggests::-webkit-scrollbar {
+  display: none;
+}
+
+.searchSuggests div {
+  padding: 8px 12px;
+
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  background: rgba(0, 0, 0, 0.02);
+
+  cursor: pointer;
+}

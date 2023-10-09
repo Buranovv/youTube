@@ -1,0 +1,74 @@
+.logo-box {
+  padding: 18px 14px 18px 16px;
+}
+.search-input {
+  width: 550px;
+  height: 40px;
+  padding: 0 4px 0 16px;
+  border-radius: 40px 0 0 40px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  border-right: none;
+
+  background: #fff;
+  box-shadow: 1px 1px 2px 0px rgba(211, 211, 211, 0.25) inset;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+.search-input ::placeholder {
+  color: #000;
+  font-size: 16px;
+  line-height: normal;
+  opacity: 0.5;
+}
+.search-btn {
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  margin: 0;
+}
+.regular-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+.same {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mic,
+.same:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.mic:hover,
+.same:active {
+  background: rgba(0, 0, 0, 0.09);
+}
+
+.mic:active {
+  background: rgba(0, 0, 0, 0.05);
+}
+.avatar-box {
+  width: 60px;
+  height: 34px;
+  padding: 1px 6px;
+
+  text-align: center;
+}
+.avatar {
+  border-radius: 50%;
+}
+.logo-box {
+  cursor: pointer;
+}
